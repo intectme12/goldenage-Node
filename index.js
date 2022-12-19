@@ -32,7 +32,11 @@ app.post('/register', (req, res)=>{
             success: true
         })
     })
+})
 
+app.post('/login',(req, res)=>{
+
+    
 })
 
 app.listen(port, (req,res)=>console.log("server start..."));
